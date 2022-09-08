@@ -1,0 +1,317 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arimo", sans-serif;
+  text-decoration: none;
+}
+
+.center-this-shit {
+  display: flex;
+  justify-content: center;
+}
+.center-this-shit .App {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px;
+}
+.center-this-shit .App .container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center-this-shit .App .container-1 .h1-title {
+  font-size: 18px;
+  text-align: center;
+}
+.center-this-shit .App .container-1 .wrapper-1 {
+  display: flex;
+  padding-top: 20px;
+  gap: 20px;
+  font-size: 14px;
+}
+.center-this-shit .App .container-1 .wrapper-1 .wrap-data-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.center-this-shit .App .container-1 .wrapper-1 .wrap-data-1 input {
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+  width: 125px;
+}
+.center-this-shit .App .container-1 .wrapper-1 .wrap-data-1 input:hover {
+  border: 1px solid #c2c5c9;
+}
+.center-this-shit .App .container-2 .h2-title {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px 0;
+}
+.center-this-shit .App .container-2 button {
+  background: #9add6d;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.center-this-shit .App .container-2 button:hover {
+  background: #88dd4e;
+}
+.center-this-shit .App .container-2 table tr th {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+.center-this-shit .App .container-2 table tr td input[type=text] {
+  width: 125px;
+}
+.center-this-shit .App .container-2 table tr td input[type=number] {
+  width: 90px;
+}
+.center-this-shit .App .container-2 table tr td input {
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+  width: 150px;
+}
+.center-this-shit .App .container-2 table tr td input:hover {
+  border: 1px solid #c2c5c9;
+}
+.center-this-shit .App .container-2 table tr td .amount {
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  position: relative;
+  width: 150px;
+}
+.center-this-shit .App .container-2 table tr td .amount .php {
+  position: absolute;
+}
+.center-this-shit .App .container-2 table tr td .amount .phprice {
+  text-align: start;
+  padding-left: 40px;
+}
+.center-this-shit .App .container-2 table tr td button {
+  color: white;
+  background: #fa7365;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.center-this-shit .App .container-2 table tr td button:hover {
+  background: #ff5e4d;
+}
+.center-this-shit .App .container-2 .output {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.center-this-shit .App .container-2 .output .result {
+  width: 100px;
+  padding: 5px 10px;
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.center-this-shit .App .container-2 .wrapper-2 .h2-title-table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.outer-details {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.outer-details .chck-container {
+  display: flex;
+  flex-direction: column;
+}
+.outer-details .chck-container .wrap-chckbx {
+  font-size: 14px;
+  padding: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.submit {
+  text-align: center;
+  color: white;
+}
+.submit button {
+  background: #9add6d;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.submit button:hover {
+  background: #88dd4e;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 10px;
+}
+.header .btn-hdr {
+  color: white;
+  font-size: 14px;
+  background: #51acfa;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.header .btn-hdr:hover {
+  background: #43a7ff;
+}
+
+.approve-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  font-size: 14px;
+}
+.approve-container .approve .title {
+  text-align: center;
+  font-size: 18px;
+}
+.approve-container .approve .view {
+  cursor: pointer;
+  color: white;
+  background: #51acfa;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.approve-container .approve .view:hover {
+  background: #43a7ff;
+}
+.approve-container .approve table {
+  padding: 10px;
+  width: 400px;
+  border-collapse: collapse;
+}
+.approve-container .approve table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.approve-container .approve table tr th {
+  font-weight: normal;
+  text-align: start;
+  padding: 5px 10px;
+}
+.approve-container .approve table tr td {
+  padding: 5px 10px;
+}
+
+.details-con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.details-con .wrap-btn {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.details-con .wrap-btn .back {
+  cursor: pointer;
+  color: white;
+  background: #51acfa;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.details-con .wrap-btn .back:hover {
+  background: #43a7ff;
+}
+.details-con .wrap-btn .approve {
+  cursor: pointer;
+  color: white;
+  background: #9add6d;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+.details-con .wrap-btn .approve:hover {
+  background: #88dd4e;
+}
+.details-con .data-wrapper .con1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
+.details-con .data-wrapper .con1 .title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.details-con .data-wrapper .con1 .title input {
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  border-radius: 4px;
+  outline: none;
+  width: 125px;
+}
+.details-con .data-wrapper .con1 .title input:hover {
+  border: 1px solid #c2c5c9;
+}
+.details-con .data-wrapper .con2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.details-con .data-wrapper .con2 table {
+  border-collapse: collapse;
+}
+.details-con .data-wrapper .con2 table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.details-con .data-wrapper .con2 table tr th {
+  padding: 5px 10px;
+}
+.details-con .data-wrapper .con2 table tr td {
+  padding: 5px 10px;
+}
+.details-con .data-wrapper .con3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.details-con .data-wrapper .con3 .output {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+  font-size: 14px;
+}
+.details-con .data-wrapper .con3 .output .result {
+  width: 100px;
+  padding: 5px 10px;
+  border: 1px solid #dee2e6;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+}/*# sourceMappingURL=App.css.map */
